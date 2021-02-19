@@ -1,0 +1,102 @@
+img {
+    width: 450px;
+    height: 200px;
+}
+
+.logo {
+    width: 120px;
+    height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+li {
+    display: inline;
+    float: right;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.sign {
+    font-size: 15px;
+    background: lightseagreen;
+    color: white;
+    margin: 1px dark;
+    height: 10px;
+    width: 65px;
+    border-color: 1px solid black;
+}
+
+.section {
+    padding: 100px;
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 500px;
+    max-width: 100%;
+    height: 600px;
+}
+
+.form {
+    padding: 30 px 10px;
+}
+
+.form-controls {
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.form-controls label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-controls input {
+    border: 1px solid black;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 8px;
+    width: 80%;
+}
+
+.form-controls input:focus {
+    outline: 0px;
+    border-color: lightblue;
+}
+
+.form button {
+    background-color: blue;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.footer {
+    float: right;
+    margin-right: 550px;
+}
+
+h3 {
+    background-color: slategrey;
+    height: 40px;
+    width: 165px;
+    position: sticky;
+}
